@@ -1,0 +1,13 @@
+train: C:/segmentation/tracking/input/dataset/demodataset/train/images
+val: C:/segmentation/tracking/input/dataset/demodataset/valid/images
+test: C:/segmentation/tracking/input/dataset/demodataset/test/images
+
+nc: 5
+names: ['bicycle', 'bicycle-lane', 'car', 'car-lane', 'person']
+
+roboflow:
+  workspace: rptu-av2mn
+  project: vechile-segmentation-south-h3
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/rptu-av2mn/vechile-segmentation-south-h3/dataset/1
